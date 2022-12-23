@@ -1,4 +1,8 @@
 package entités;
 
-public class Annotation {
+public class Annotation extends Entité{
+
+    public Annotation(String nom) {
+        super(nom);
+    }
 }

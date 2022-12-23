@@ -1,4 +1,7 @@
 package entités;
 
-public class Interface {
+public class Interface extends Entité{
+    public Interface(String nom) {
+        super(nom);
+    }
 }
